@@ -15,5 +15,4 @@ export class ListingsPageComponent implements OnInit {
   ngOnInit(): void {
     this.listings = fakeListings;
   }
-
 }

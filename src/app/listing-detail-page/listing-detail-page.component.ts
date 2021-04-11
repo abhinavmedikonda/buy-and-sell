@@ -21,5 +21,4 @@ export class ListingDetailPageComponent implements OnInit {
       this.listing = fakeListings[fakeListings.findIndex(listing => listing.id === id)];
     }
   }
-
 }
