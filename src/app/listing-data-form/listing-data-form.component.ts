@@ -24,7 +24,7 @@ export class ListingDataFormComponent implements OnInit {
   ngOnInit(): void {
     this.name = this.currentListing.name;
     this.description = this.currentListing.description;
-    this.price = this.currentListing.price.toString();
+    this.price = this.currentListing.price?.toString();
   }
 
   onButtonClicked(): void {
